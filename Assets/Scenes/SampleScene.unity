@@ -538,7 +538,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1220470364}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 299b71d2b8c22aa4bbb9a323955a1203, type: 2}
+  m_Material: {fileID: 6200000, guid: 0eaa4546f970aaf47b50b885d48fb988, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -729,7 +729,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 1251538468}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: 299b71d2b8c22aa4bbb9a323955a1203, type: 2}
+  m_Material: {fileID: 6200000, guid: 0eaa4546f970aaf47b50b885d48fb988, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -972,8 +972,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2105756102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.88, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -0.2163, y: 1.0663, z: 1}
+  m_LocalScale: {x: 0.6273, y: 0.6273, z: 0.6273}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fc3f8b41ecc87c46ac414471bb98b5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: {x: 3, y: 0.5}
+  speed: {x: 4, y: 1}
 --- !u!50 &2105756106
 Rigidbody2D:
   serializedVersion: 4
