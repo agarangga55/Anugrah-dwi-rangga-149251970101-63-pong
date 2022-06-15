@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenuManager : MonoBehaviour
 {
+    public GameObject CreditsMenu;
     public void PlayGame()
     {
         Debug.Log("Created By Anugrah Dwi Rangga - 149251970101-63");
@@ -17,5 +18,15 @@ public class MainMenuManager : MonoBehaviour
         Debug.Log("Ini Tombol");
         Debug.Log("h3h3h3h3");
         Debug.Log("Created By Anugrah Dwi Rangga - 149251970101-63");
+    }
+
+    public void CloseCredits()
+    {
+        CreditsMenu.SetActive(false);
+    }
+
+    public void OpenCredits()
+    {
+        CreditsMenu.SetActive(true);
     }
 }
