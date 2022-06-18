@@ -5,6 +5,7 @@ using UnityEngine;
 public class BallMovement : MonoBehaviour
 {
     public Vector2 speed;
+    public Vector2 resetPosition;
 
     private Rigidbody2D rig;
     // Start is called before the first frame update
@@ -18,5 +19,15 @@ public class BallMovement : MonoBehaviour
     void Update()
     {
         //transform.Translate(speed * Time.deltaTime);
+    }
+
+    public void ResetBall()
+    {
+        transform.position = new Vector3(resetPosition.x, resetPosition.y, 1);
+    }
+
+    public void ActivatePwrUpSPDUp(float magnitude)
+    {
+        rig.velocity *= magnitude;
     }
 }
