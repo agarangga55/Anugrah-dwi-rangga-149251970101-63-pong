@@ -2124,7 +2124,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: {x: 3, y: 2}
+  normalSpeed: {x: 3, y: 2}
   resetPosition: {x: 0, y: 0}
+  paddle: {fileID: 0}
 --- !u!50 &2105756106
 Rigidbody2D:
   serializedVersion: 4
